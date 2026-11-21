@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables (NEVER commit these)
+.env
+server/.env
+client/.env
+
+# Build output
+dist/
+build/
+.vite/
+
+# Uploads & temp files
+server/uploads/*
+!server/uploads/.gitkeep
+/tmp/resumeiq-uploads/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor & OS
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.idea/
+
+# Coverage
+coverage/
+
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
